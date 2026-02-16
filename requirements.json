@@ -1,0 +1,30 @@
+{
+  "name": "twitter-ads",
+  "displayName": "Twitter Ads",
+  "description": "Manage Twitter advertising campaigns, targeting, and analytics",
+  "version": "1.0.0",
+  "author": "lobstash",
+  "envVars": [
+    {
+      "name": "TWITTER_ADS_ACCESS_TOKEN",
+      "description": "Twitter Ads API access token for authenticated requests",
+      "required": true
+    },
+    {
+      "name": "TWITTER_ADS_ACCESS_SECRET",
+      "description": "Twitter Ads API access secret for authenticated requests",
+      "required": true
+    },
+    {
+      "name": "TWITTER_ADS_CONSUMER_KEY",
+      "description": "Twitter Ads API consumer key for application authentication",
+      "required": true
+    },
+    {
+      "name": "TWITTER_ADS_CONSUMER_SECRET",
+      "description": "Twitter Ads API consumer secret for application authentication",
+      "required": true
+    }
+  ],
+  "postInstall": "npm install"
+}
